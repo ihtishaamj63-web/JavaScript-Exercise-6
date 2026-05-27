@@ -3,10 +3,9 @@ function greet(name){
   return `Hello, ${name}!`;
 }
 
-// Create a function called add that takes two numbers as a parameter. Defined sum. Returns sum.
+// Create a function called add that takes two numbers as a parameter returns parameters added together.
 function add(numOne, numTwo){
-  const sum = numOne + numTwo;
-  return `Sum: ${sum}`;
+  return numOne + numTwo;
 }
 
 // Call functions and store results in variables
@@ -15,4 +14,4 @@ const total = add(5, 10);
 
 // Display results
 console.log(name);
-console.log(total);
+console.log(`The total is: ${total}`);
